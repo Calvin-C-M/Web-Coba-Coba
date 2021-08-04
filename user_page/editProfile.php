@@ -47,20 +47,25 @@
             <div id="edit-password" style="display:none">
                 <form action="" method="post">
                     <label for="old_pw">Old Password:
-                        <input name="old_pw" type="password">
+                        <input class="pw-input" name="old_pw" type="password">
+                        <button class="see-password">{ See PW }</button>
                     </label>
                     <br>
                     <label for="new_pw">New Password:
-                        <input name="new_pw" type="password">
+                        <input class="pw-input" name="new_pw" type="password">
+                        <button class="see-password">{ See PW }</button>
                     </label>
                     <br>
                     <label for="confirm_pw">Confirm New Password:
-                        <input name="confirm_pw" type="password">
+                        <input class="pw-input" name="confirm_pw" type="password">
+                        <button class="see-password">{ See PW }</button>
                     </label>
                     <br>
                     <button name="save" type="submit">Save</button>
                 </form>
             </div>
         </main>
+        
+        <script src="../assets/scripts/seePw.js"></script>
     </body>
 </html>
