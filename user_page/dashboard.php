@@ -14,7 +14,26 @@
             document.writeln(Sidebar);
         </script>
         <main>
-            
+            <section id='announcement' class="dashboard-components">
+                <h2>Announcement</h2>
+                <!-- Nanti struktur buat announcement kayak berikut -->
+                <div>
+                    <p>{ nama_pengirim }</p>
+                    <p>{ deskripsi }</p>
+                </div>
+            </section>
+            <section id='todolist' class="dashboard-components">
+                <h2>To Do List</h2>
+                <!-- Nanti struktur buat  -->
+                <div>
+                    <!-- Masih rada bingung buat ceklisnya bakal berbentuk apa -->
+                    <p>{ deskripsi }</p>
+                </div>
+            </section>
+            <section id='calendar' class="dashboard-components">
+                <h2>Calendar</h2>
+                <!-- Ini masih bingung juga bakal berbentuk kek gimana wkwk -->
+            </section>
         </main>
     </body>
 </html>

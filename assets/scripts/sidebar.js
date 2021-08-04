@@ -1,6 +1,7 @@
 const Sidebar = () => {
     return (`
-    <nav>
+    <nav style="display:none">
+        <button id='tutup-menu'>{ Tutup menu }</button>
         <img src="" alt="Logo gopher">
         <div id="links">
             <a href="profile.php">Profile</a>
@@ -9,5 +10,11 @@ const Sidebar = () => {
         </div>
         <a href="#">Logout</a>
     </nav>
+    `);
+}
+
+const ClosedSidebar = () => {
+    return (`
+        <button id='buka-menu'>{ Buka menu }</button>
     `);
 }
