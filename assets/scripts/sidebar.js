@@ -13,7 +13,7 @@ const Sidebar = () => {
     `);
 }
 
-const ClosedSidebar = () => {
+const OpenSidebar = () => {
     return (`
         <button id='buka-menu'>{ Buka menu }</button>
     `);

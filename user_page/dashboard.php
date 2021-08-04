@@ -11,6 +11,7 @@
     </head>
     <body>
         <script>
+            document.writeln(OpenSidebar);
             document.writeln(Sidebar);
         </script>
         <main>
