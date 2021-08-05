@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (`
-    <nav style="display:none">
+    <nav id="sidebar" style="display:none">
         <button id='tutup-menu'>{ Tutup menu }</button>
         <img src="" alt="Logo gopher">
         <div id="links">
@@ -15,6 +15,8 @@ const Sidebar = () => {
 
 const OpenSidebar = () => {
     return (`
-        <button id='buka-menu'>{ Buka menu }</button>
+        <button id='buka-menu'>
+            { Buka menu }
+        </button>
     `);
 }
